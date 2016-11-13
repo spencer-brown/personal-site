@@ -32,4 +32,7 @@ p.icon-list {
 a:link, a:visited {
   color: inherit; }
 
+.bio {
+  max-width: 50%; }
+
 /*# sourceMappingURL=main.css.map */
