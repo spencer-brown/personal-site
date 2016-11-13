@@ -1,0 +1,21 @@
+{
+  "name": "contact-bump",
+  "description": "Your personal assistant for keeping in touch with important contacts.",
+  "main": "index.js",
+  "authors": [
+    "Spencer Brown <me@spencer.sx>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  }
+}

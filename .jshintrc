@@ -1,0 +1,10 @@
+{
+  "esnext": true,
+
+  "predef": [
+    "console",
+    "module",
+    "require",
+    "process"
+  ]
+}
