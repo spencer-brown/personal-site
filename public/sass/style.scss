@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:Medium');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #EEEEEE;
+}
+
+img.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: 1000px;
+  width: auto;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -1;
+}
+
+.content {
+  margin-top: 180px;
+  margin-left: 40px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p.sub-heading {
+  margin-top: -41;
+  font-size: 1.5em;
+}
+
+p.icon-list {
+  margin-top: -10;
+  font-size: 1.7em;
+}
+
+a:link, a:visited {
+  color: inherit;
+}
