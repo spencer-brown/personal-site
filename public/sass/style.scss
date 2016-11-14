@@ -21,6 +21,10 @@ img.bg-image {
 
 /* height: 746px is where the font breaks. */
 @media (max-width: 746px) {
+  body {
+    margin-bottom: 250px;
+  }
+
   .content {
     margin-left: 40px;
   }
