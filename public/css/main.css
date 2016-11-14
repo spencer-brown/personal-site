@@ -14,10 +14,14 @@ img.bg-image {
   min-height: 100%;
   z-index: -1; }
 
-.content {
-  margin-top: 180px;
-  margin-left: 40px; }
-
+/* height: 746px is where the font breaks. */
+@media (max-width: 746px) {
+  .content {
+    margin-left: 40px; } }
+@media (min-width: 746px) {
+  .content {
+    margin-top: 180px;
+    margin-left: 40px; } }
 p.icon-list {
   margin-top: -41;
   font-size: 1.7em; }
