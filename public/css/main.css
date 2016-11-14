@@ -18,9 +18,6 @@ img.bg-image {
   margin-top: 180px;
   margin-left: 40px; }
 
-h1 {
-  font-size: 4em; }
-
 p.icon-list {
   margin-top: -41;
   font-size: 1.7em; }
@@ -30,5 +27,23 @@ a:link, a:visited {
 
 .bio {
   max-width: 50%; }
+
+.rainbow {
+  background-image: url("http://i361.photobucket.com/albums/oo54/crackysparkles/sparkles/starblu.gif"); }
+
+.rainbow-span {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.1, #f2f), color-stop(0.2, #22f), color-stop(0.35, #2ff), color-stop(0.45, #2f2), color-stop(0.6, #2f2), color-stop(0.7, #ff2), color-stop(0.85, #f22));
+  background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.cool-font {
+  font-size: 6em;
+  font-family: "Comic Sans MS", cursive, sans-serif; }
+
+.brown-brown {
+  color: brown; }
 
 /*# sourceMappingURL=main.css.map */
