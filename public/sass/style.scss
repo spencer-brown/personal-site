@@ -24,12 +24,20 @@ img.bg-image {
   .content {
     margin-left: 40px;
   }
+
+  .comic-sans {
+    font-family: 'Comic Sans MS', 'Marker Felt', sans-serif;
+  }
 }
 
 @media (min-width: 746px) {
   .content {
     margin-top: 180px;
     margin-left: 40px;
+  }
+
+  .comic-sans {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
   }
 }
 
@@ -59,9 +67,8 @@ a:link, a:visited {
   background-clip: text;
 }
 
-.cool-font {
+.name-header {
   font-size: 6em;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 .brown-brown {

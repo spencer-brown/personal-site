@@ -17,11 +17,17 @@ img.bg-image {
 /* height: 746px is where the font breaks. */
 @media (max-width: 746px) {
   .content {
-    margin-left: 40px; } }
+    margin-left: 40px; }
+
+  .comic-sans {
+    font-family: 'Comic Sans MS', 'Marker Felt', sans-serif; } }
 @media (min-width: 746px) {
   .content {
     margin-top: 180px;
-    margin-left: 40px; } }
+    margin-left: 40px; }
+
+  .comic-sans {
+    font-family: 'Comic Sans MS', cursive, sans-serif; } }
 p.icon-list {
   margin-top: -41;
   font-size: 1.7em; }
@@ -43,9 +49,8 @@ a:link, a:visited {
   -webkit-background-clip: text;
   background-clip: text; }
 
-.cool-font {
-  font-size: 6em;
-  font-family: 'Comic Sans MS', cursive, sans-serif; }
+.name-header {
+  font-size: 6em; }
 
 .brown-brown {
   color: brown; }
