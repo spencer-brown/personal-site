@@ -20,14 +20,20 @@ img.bg-image {
     margin-left: 40px; }
 
   .comic-sans {
-    font-family: 'Comic Sans MS', 'Marker Felt', sans-serif; } }
+    font-family: 'Comic Sans MS', 'Marker Felt', sans-serif; }
+
+  .name-header {
+    font-size: 4.5em; } }
 @media (min-width: 746px) {
   .content {
     margin-top: 180px;
     margin-left: 40px; }
 
   .comic-sans {
-    font-family: 'Comic Sans MS', cursive, sans-serif; } }
+    font-family: 'Comic Sans MS', cursive, sans-serif; }
+
+  .name-header {
+    font-size: 6em; } }
 p.icon-list {
   margin-top: -41;
   font-size: 1.7em; }
@@ -48,9 +54,6 @@ a:link, a:visited {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text; }
-
-.name-header {
-  font-size: 6em; }
 
 .brown-brown {
   color: brown; }
