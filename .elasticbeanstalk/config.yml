@@ -1,0 +1,17 @@
+branch-defaults:
+  master:
+    environment: personal-site-dev
+    group_suffix: null
+environment-defaults:
+  personal-site-dev:
+    branch: null
+    repository: null
+global:
+  application_name: personal-site
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Docker 1.11.2
+  default_region: us-east-1
+  profile: null
+  repository: null
+  sc: git
