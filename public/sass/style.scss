@@ -19,31 +19,9 @@ img.bg-image {
   z-index: -1;
 }
 
-@media (max-width: 736px) {
-  body {
-    margin-bottom: 2500px;
-  }
-
-  .content-position {
-    margin-left: 40px;
-  }
-
-  .name-header {
-    font-size: 4.5em;
-    font-family: 'Papyrus';
-  }
-}
-
-@media (min-width: 736px) {
-  .content-position {
-    margin-top: 180px;
-    margin-left: 40px;
-  }
-
-  .name-header {
-    font-size: 6em;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-  }
+.content-position {
+  margin-top: 180px;
+  margin-left: 40px;
 }
 
 .icon-list {
