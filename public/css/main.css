@@ -25,4 +25,8 @@ img.bg-image {
 a:link, a:visited {
   color: inherit; }
 
+.bullet-block {
+  margin-top: 35px;
+  max-width: 400px; }
+
 /*# sourceMappingURL=main.css.map */
