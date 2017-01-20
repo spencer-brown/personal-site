@@ -16,7 +16,8 @@ img.bg-image {
 
 .content-position {
   margin-top: 180px;
-  margin-left: 40px; }
+  margin-left: 40px;
+  max-width: 400px; }
 
 .icon-list {
   margin: 0 0 0 0;
@@ -26,7 +27,6 @@ a:link, a:visited {
   color: inherit; }
 
 .bullet-block {
-  margin-top: 35px;
-  max-width: 400px; }
+  margin-top: 35px; }
 
 /*# sourceMappingURL=main.css.map */
