@@ -5,3 +5,5 @@ public/js/*
 bower_components
 
 yarn-error.log
+
+.elasticbeanstalk
