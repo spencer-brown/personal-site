@@ -21,4 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 a:link, a:visited {
   color: inherit; }
 
+hr {
+  border-top: 1px dashed #60605a;
+  border-bottom: none; }
+
 /*# sourceMappingURL=main.css.map */

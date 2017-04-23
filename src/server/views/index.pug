@@ -30,19 +30,17 @@ block content
 
     hr
 
-    .bullet-block
-      h1 Recent Projects
-      ul
-        li
-          a(href='http://pley.usb.cs.purdue.edu' target='blank') Pley
-          | &nbsp;- A free, Kubernetes-based web hosting service for Purdue students.
-        li
-          a(href='https://www.npmjs.com/package/express-notebook' target='blank') express-notebook
-          | &nbsp;- A simple, drop-in markdown blogging framework for Express applications.
+    h1 Recent Projects
+    ul
+      li
+        a(href='http://pley.usb.cs.purdue.edu' target='blank') Pley
+        | &nbsp;- A free, Kubernetes-based web hosting service for Purdue students.
+      li
+        a(href='https://www.npmjs.com/package/express-notebook' target='blank') express-notebook
+        | &nbsp;- A simple, drop-in markdown blogging framework for Express applications.
 
-    .bullet-block
-      h1 Writing
-      ul
-        each post in posts
-          li
-            a(href="/posts/" + post.slug)= post.metadata.title
+    h1 Writing
+    ul
+      each post in posts
+        li
+          a(href="/posts/" + post.slug)= post.metadata.title
