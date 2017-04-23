@@ -11,15 +11,15 @@ module.exports = (app) => {
     app,
 
     // Look for posts and data.json here. A directory relative to the project root directory.
-    postsDir: 'posts',
+    postsDir: 'src/server/posts',
 
     // The URL path where we'll make posts available.
     urlPath: '/posts',
 
-      /**
-       * The template where we'll dump the post HTML. Should contain a `post` variable that's rendered
-       * unescaped.
-       */
+    /**
+     * The template where we'll dump the post HTML. Should contain a `post` variable that's rendered
+     * unescaped.
+     */
     template: 'post'
   });
 };

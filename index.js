@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
-const notebook = require('./utils/notebook')(app);
+const notebook = require('./src/server/utils/notebook')(app);
 
 
 // Set up templating.
+app.set('views', `${process.cwd()}/src/server/views`);
 app.set('view engine', 'pug');
 app.locals.moment = require('moment');
 
@@ -11,7 +12,7 @@ app.locals.moment = require('moment');
 app.use(express.static('public'));
 
 // Require routes.
-require('./routes')(app);
+require('./src/server/routes')(app);
 notebook.setPostRoutes();
 
 // Set up environment variables.
