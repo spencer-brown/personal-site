@@ -1,22 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:Medium');
+@import url('https://fonts.googleapis.com/css?family=Muli:Extra-Light');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #EEEEEE;
+  font-family: 'Muli', sans-serif;
+  color: #60605a;
+  background-color: #fcfa7b;
 }
 
-img.bg-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  height: 1000px;
-  width: auto;
-
-  min-width: 100%;
-  min-height: 100%;
-
-  z-index: -1;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
 }
 
 .content-position {
