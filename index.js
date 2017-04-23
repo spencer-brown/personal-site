@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const notebook = require('./utils/notebook')(app);
 
 
 // Set up templating.
@@ -11,6 +12,7 @@ app.use(express.static('public'));
 
 // Require routes.
 require('./routes')(app);
+notebook.setPostRoutes();
 
 // Set up environment variables.
 const args = process.argv.slice(2);

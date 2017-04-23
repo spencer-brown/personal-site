@@ -3,3 +3,5 @@ public/css/*.css.map
 public/js/*
 .sass-cache
 bower_components
+
+yarn-error.log

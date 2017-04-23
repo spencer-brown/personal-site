@@ -1,8 +1,9 @@
 extends layout
 
-block content
-  img.bg-image(src="images/bg.jpg")
+block append head
+  title Spencer Brown
 
+block content
   .content-position
     .icon-list
       a(href='https://github.com/spencer-brown', target='blank')
@@ -46,6 +47,6 @@ block content
     .bullet-block
       h3 Writing
       ul
-        li
-          a(href='/htwfip') Notes on&nbsp;
-            em How to Win Friends and Influence People
+        each post in posts
+          li
+            a(href="/posts/" + post.slug)= post.metadata.title

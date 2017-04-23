@@ -1,0 +1,21 @@
+extends layout
+
+block append head
+  title
+    = metadata.title
+    | - Spencer Brown
+
+block content
+  .content-position
+    h5
+      a(href='/') Home
+
+    h1= metadata.title
+    h4
+      em= metadata.location
+      | &nbsp;&nbsp;-&nbsp;
+      em= metadata.date
+
+    hr
+
+    .post!= post
