@@ -1,6 +1,5 @@
 /* Custom CSS */
-@import url("https://fonts.googleapis.com/css?family=Muli:Extra-Light");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900");
+@import url("https://fonts.googleapis.com/css?family=Muli:Extra-Light|Playfair+Display:900|Roboto+Mono:100");
 body {
   font-family: 'Muli', sans-serif;
   color: #60605a;
@@ -10,13 +9,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif; }
 
 .content-position {
-  margin-top: 180px;
-  margin-left: 40px;
-  max-width: 400px; }
+  margin: auto;
+  margin-top: 120px;
+  max-width: 480px; }
 
 .icon-list {
   margin: 0 0 0 0;
   font-size: 1.7em; }
+
+.date {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 0.75em; }
 
 a:link, a:visited {
   color: inherit; }
