@@ -1,6 +1,5 @@
 node_modules
 public/css/*.css.map
-public/js/*
 .sass-cache
 bower_components
 
