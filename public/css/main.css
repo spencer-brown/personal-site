@@ -3,10 +3,11 @@
 body {
   font-family: 'Muli', sans-serif;
   color: #60605a;
-  background-color: #fcfa7b; }
+  background-color: #ffebcd; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Playfair Display', serif;
+  color: #702963; }
 
 .content-position {
   margin: auto;
@@ -24,7 +25,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.75em; }
 
 a:link, a:visited {
-  color: inherit; }
+  color: inherit;
+  transition: background-color 0.1s ease-out; }
+
+a:hover {
+  background-color: #ffa6c9; }
 
 hr {
   border-top: 1px dashed #60605a;
