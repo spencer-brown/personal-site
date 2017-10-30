@@ -21,7 +21,6 @@ $ eb deploy
 
 # TODO
 
-- [ ] Add something interesting on button hover.
 - [ ] Automated deployment via Travis.
 - [ ] Restart server when .md files are changed.
 - [x] Improve file organization.
