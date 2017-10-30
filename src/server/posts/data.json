@@ -1,10 +1,18 @@
 {
   "posts": [{
+    "filename": "eslint.md",
+    "slug": "eslint",
+    "metadata": {
+      "title": "Using project-local ESLint with Vim",
+      "date": "10/29/2017",
+      "location": "San Francisco, CA"
+    }
+  }, {
     "filename": "htwfip.md",
     "slug": "htwfip",
     "metadata": {
       "title": "Notes on How to Win Friends and Influence People",
-      "date": "1/20/2017",
+      "date": "01/20/2017",
       "location": "Bangkok, Thailand"
     }
   }]
