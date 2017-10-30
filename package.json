@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index --env=$ENV"
+    "start": "node index --env=$ENV",
+    "lint": "eslint ."
   },
   "author": "Spencer Brown <me@spencer.sx>",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
+    "eslint": "^4.10.0",
     "grunt": "^1.0.1",
     "grunt-concurrent": "^2.3.1",
     "grunt-contrib-concat": "^1.0.1",

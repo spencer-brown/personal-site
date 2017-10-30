@@ -1,0 +1,10 @@
+{
+  "extends": "../../.eslintrc.json",
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "globals": {
+    "ga": true
+  }
+}

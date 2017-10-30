@@ -27,5 +27,6 @@ app.locals.env[process.env.ENVIRONMENT] = true;
 // Start the app.
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
+  // eslint-disable-next-line no-console
   console.log('app started. listening on', port);
 });
